@@ -1,0 +1,30 @@
+{
+  "name": "j5-experiment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "johnny-five": "^0.9.30",
+    "raspi-io": "^5.4.1"
+  },
+  "devDependencies": {
+    "pre-commit": "^1.1.2",
+    "standard": "^6.0.8"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jedireza/j5-experiment.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jedireza/j5-experiment/issues"
+  },
+  "homepage": "https://github.com/jedireza/j5-experiment#readme",
+  "pre-commit": ["lint"]
+}
