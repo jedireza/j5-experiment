@@ -12,7 +12,8 @@
     "standard": "^6.0.8"
   },
   "scripts": {
-    "start": "node index.js",
+    "two-led": "node two-led.js",
+    "button": "node button.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "standard"
   },
